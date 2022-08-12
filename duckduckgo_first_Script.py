@@ -25,3 +25,6 @@ def test_eight_components():
     assert value == "Selenium"
 
     driver.quit()
+    
+    
+ test_eight_components()
