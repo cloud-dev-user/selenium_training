@@ -18,7 +18,7 @@ def test_eight_components():
 
     search_box.send_keys("Selenium")
     search_button.click()
-     driver.implicitly_wait(10)
+    driver.implicitly_wait(10)
     value = search_box.get_attribute("value")
 
     driver.quit()
