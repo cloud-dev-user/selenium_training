@@ -27,4 +27,4 @@ def test_eight_components():
     driver.quit()
     
     
- test_eight_components()
+test_eight_components()
